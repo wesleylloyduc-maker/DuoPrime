@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | DuoPrime Maintenance</title>
+    <meta name="description" content="View a selection of recent DuoPrime Maintenance projects, from interior decorating to exterior maintenance and landlord refreshes." />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">DP</span>
+          <span>
+            <strong>DuoPrime</strong>
+            <small>Maintenance</small>
+          </span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="projects.html" class="active">Projects</a>
+          <a href="areas.html">Areas</a>
+          <a href="contact.html" class="btn btn-small">Get a Quote</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Projects</p>
+          <h1>Elegant before-and-after transformations delivered with precision.</h1>
+          <p>From stylish interiors to practical exterior protection, each project is approached with care and craftsmanship.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="filter-row reveal">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="interior">Interior</button>
+            <button class="filter-btn" data-filter="exterior">Exterior</button>
+            <button class="filter-btn" data-filter="landlord">Landlord</button>
+          </div>
+          <div class="gallery-grid">
+            <article class="gallery-item reveal" data-category="interior">
+              <img src="assets/images/project-1.svg" alt="Contemporary lounge refresh" />
+              <div class="gallery-item-content">
+                <h3>Contemporary lounge refresh</h3>
+                <p>Luxury finish with clean colour palette and feature wall.</p>
+              </div>
+            </article>
+            <article class="gallery-item reveal" data-category="exterior">
+              <img src="assets/images/project-2.svg" alt="Exterior weatherproofing project" />
+              <div class="gallery-item-content">
+                <h3>Weatherproofing upgrade</h3>
+                <p>Protective masonry and fascias for improved durability.</p>
+              </div>
+            </article>
+            <article class="gallery-item reveal" data-category="landlord">
+              <img src="assets/images/project-3.svg" alt="Rental property refresh" />
+              <div class="gallery-item-content">
+                <h3>Rental presentation refresh</h3>
+                <p>Fast turnaround and tenant-ready finish for a busy property.</p>
+              </div>
+            </article>
+            <article class="gallery-item reveal" data-category="interior">
+              <img src="assets/images/project-4.svg" alt="Bedroom transformation" />
+              <div class="gallery-item-content">
+                <h3>Bedroom transformation</h3>
+                <p>Elegant décor and smooth finish for a calm, modern space.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="lightbox" aria-hidden="true">
+      <button class="lightbox-close" aria-label="Close preview">×</button>
+      <img src="" alt="Project preview" />
+    </div>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© 2026 DuoPrime Maintenance. Premium property care across Greater Manchester.</p>
+        <a href="contact.html">contact@duoprime.co.uk</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/gallery.js"></script>
+  </body>
+</html>

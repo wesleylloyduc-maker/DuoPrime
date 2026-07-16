@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact DuoPrime | Get a Quote</title>
+    <meta name="description" content="Contact DuoPrime Maintenance for a quote or consultation for decorating, maintenance, and property refresh projects." />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">DP</span>
+          <span>
+            <strong>DuoPrime</strong>
+            <small>Maintenance</small>
+          </span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="areas.html">Areas</a>
+          <a href="contact.html" class="active btn btn-small">Get a Quote</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Contact us</p>
+          <h1>Tell us about your project and we’ll arrange a professional consultation.</h1>
+          <p>We’re happy to discuss interior decorating, exterior work, and landlord refreshes across Greater Manchester.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container grid-2">
+          <div class="card reveal">
+            <h2>Get in touch</h2>
+            <p><strong>Email:</strong> <a href="mailto:contact@duoprime.co.uk">contact@duoprime.co.uk</a></p>
+            <p><strong>Service area:</strong> Greater Manchester</p>
+            <p><strong>Response:</strong> We aim to reply quickly with availability and next steps.</p>
+          </div>
+          <div class="card reveal">
+            <form action="https://formsubmit.co/contact@duoprime.co.uk" method="POST" class="contact-form">
+              <input type="hidden" name="_subject" value="New DuoPrime enquiry" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_next" value="https://wesleylloyduc-maker.github.io/DuoPrime/thank-you.html" />
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="text" />
+              </div>
+              <div class="form-group">
+                <label for="message">Project details</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn">Send enquiry</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© 2026 DuoPrime Maintenance. Premium property care across Greater Manchester.</p>
+        <a href="contact.html">contact@duoprime.co.uk</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
